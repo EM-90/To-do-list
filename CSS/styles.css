@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.list-container {
+  position: absolute;
+  background-color: antiquewhite;
+}
+
+ul {
+  margin-top: 20px;
+  position: relative;
+}
+
+li {
+  list-style: inside;
+  padding-top: 5px;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/* js class for crossing out list items*/
+
+.check {
+  text-decoration: line-through;
+  color: green;
+}
